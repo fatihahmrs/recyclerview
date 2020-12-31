@@ -3,9 +3,9 @@ package com.example.recyclerview;
 public class Version {
     private String name;
     private String desc;
-    private int icon;
+    private String icon;
 
-    public Version(String name, String desc, int icon) {
+    public Version(String name, String desc, String icon) {
         this.name = name;
         this.desc = desc;
         this.icon = icon;
@@ -19,7 +19,7 @@ public class Version {
         return desc;
     }
 
-    public int getIcon() {
+    public String getIcon() {
         return icon;
     }
 }
